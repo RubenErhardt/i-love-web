@@ -1,21 +1,22 @@
 <header class="header">
     <p>Ruben Erhardt's Digital Garden</p>
     <p>
-        <a href="https://github.com/rubenerhardt" target="_blank" rel="noopener noreferrer">Github
-        </a>
+        <a href="https://github.com/rubenerhardt" target="_blank" rel="noopener noreferrer">Github</a>
     </p>
-  </header>
+    <!-- Walking Guy -->
+    <div class="walking-guy-header" id="walking-guy-header"></div>
+</header>
 
 
   
   <section class="more-info">
     <img src="/plant_01.png" alt="" width="300" height="200">
     <div class="tekst-info">
-    <h2>Ruben Erhardt's Digital Garden</h2>
-    <p>Notities over het web, WELOVEWEBS en dingen die ik heb geleerd</p>
-</div>
+        <h2>Ruben Erhardt's Digital Garden</h2>
+        <p>Notities over het web, WELOVEWEBS en dingen die ik heb geleerd</p>
+    </div>
     <img src="/59a81a86259965.5d940fbcbdefa-removebg-preview.png" alt="" width="300" height="200" class="wifi">
-  </section>
+</section>
 
   <section class="latest">
         <p class="latest-text">Latest: Digital gardening &nbsp;&nbsp; | Sveltekit leren &nbsp;&nbsp; | Projectboard &nbsp;&nbsp; | Updated: 17-09-2024</p>
@@ -69,11 +70,36 @@
   <style>
     .header {
       padding: 20px;
+      position: relative;
       display: flex;
+      overflow: hidden;
     justify-content: space-between; /* Space between the items */
     align-items: center;
       outline: 2px solid black;
     }
+
+    /* Walking Guy Styles for Header */
+.walking-guy-header {
+    position: absolute;
+    top: 50%; /* Position the guy vertically centered */
+    right: -60px; /* Starting position from outside the right edge */
+    transform: translateY(-50%); /* Center it vertically */
+    width: 50px; /* Width of the walking guy */
+    height: 50px; /* Height of the walking guy */
+    background: url('/pngtree-boy-pixel-little-man-illustration-image_1433979-removebg-preview.png') no-repeat; /* Replace with your walking guy image */
+    background-size: cover; /* Ensure the background fits */
+    animation: walk-header 20s linear infinite; /* Animation duration and looping */
+}
+
+/* Walking Animation for Header */
+@keyframes walk-header {
+    0% {
+        transform: translateY(-50%) translateX(100%);
+    }
+    100% {
+        transform: translateY(-50%) translateX(-100vw); /* Walks from right to left across the viewport */
+    }
+}
   
     .header p {
       margin: 0;
@@ -90,6 +116,7 @@
         padding: 20px;
         outline: 2px solid black;
         display: flex;
+        position: relative;
     }
     
     .tekst-info{
