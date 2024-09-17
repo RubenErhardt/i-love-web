@@ -15,7 +15,7 @@
         <h2>Ruben Erhardt's Digital Garden</h2>
         <p>Notities over het web, WELOVEWEBS en dingen die ik heb geleerd.</p>
     </div>
-    <img src="/59a81a86259965.5d940fbcbdefa-removebg-preview.png" alt="" width="300" height="200" class="wifi">
+    <img src="/output-onlinegiftools.gif" alt="" width="100" height="100" class="plantje-gif">
 </section>
 
   <section class="latest">
@@ -148,6 +148,14 @@
         display: flex;
         position: relative;
     }
+
+    .plantje-gif{
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+    }
+
+
     
     .tekst-info{
         display: flex;
