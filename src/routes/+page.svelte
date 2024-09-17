@@ -64,6 +64,36 @@
             <p class="datum">03-09-2024</p>
         </article>
     </a>
+    <a href="/leervragen" class="article-link">
+        <article class="article">
+            <div class="img-container">
+            <img src="/istockphoto-1389448437-612x612-removebg-preview.png" alt="leervragen">
+        </div>
+            <h2>Leervragen sprint 13</h2>
+            <p>"Voor sprint 13 moesten wij een aantal leervragen bedenken. Die kan je hier zien.""</p>
+            <p class="datum">02-09-2024</p>
+        </article>
+    </a>
+    <a href="/leervragen" class="article-link">
+        <article class="article">
+            <div class="img-container">
+            <img src="/istockphoto-1389448437-612x612-removebg-preview.png" alt="leervragen">
+        </div>
+            <h2>Leervragen sprint 13</h2>
+            <p>"Voor sprint 13 moesten wij een aantal leervragen bedenken. Die kan je hier zien.""</p>
+            <p class="datum">02-09-2024</p>
+        </article>
+    </a>
+    <a href="/leervragen" class="article-link">
+        <article class="article">
+            <div class="img-container">
+            <img src="/istockphoto-1389448437-612x612-removebg-preview.png" alt="leervragen">
+        </div>
+            <h2>Leervragen sprint 13</h2>
+            <p>"Voor sprint 13 moesten wij een aantal leervragen bedenken. Die kan je hier zien.""</p>
+            <p class="datum">02-09-2024</p>
+        </article>
+    </a>
     </main>
   </div>
   
