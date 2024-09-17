@@ -1,0 +1,2 @@
+<h2>Vandaag heb ik een call gehad in discord om 12 uur met mijn team, hier bespraken we wat onze plan van aanpak was en wat we moesten doen. Ik heb vandaag ideeen gehad en geschetst, simpele schetsen met hele minimale breakdown. Dit kan later nog concreter als we een concreet idee hebben. Verder ben ik gegaan met het begrijpen van sveltekit en de tutorial.</h2>
+<img src="" alt="">

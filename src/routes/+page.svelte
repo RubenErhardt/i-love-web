@@ -5,6 +5,8 @@
         </a>
     </p>
   </header>
+
+
   
   <section class="more-info">
     <img src="/plant_01.png" alt="" width="300" height="200">
@@ -28,65 +30,44 @@
         </div>
             <h2>Recap Node JS</h2>
             <p>"Node.js is een JavaScript-runtime waarmee je een server kunt opzetten om je frontend code te verbinden met een database."</p>
+            <p class="datum">02-09-2024</p>
         </article>
     </a>
+    <a href="/leervragen" class="article-link">
         <article class="article">
-            <img src="" alt="">
-            <h2>Article Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="img-container">
+            <img src="/istockphoto-1389448437-612x612-removebg-preview.png" alt="leervragen">
+        </div>
+            <h2>Leervragen sprint 13</h2>
+            <p>"Voor sprint 13 moesten wij een aantal leervragen bedenken. Die kan je hier zien.""</p>
+            <p class="datum">02-09-2024</p>
         </article>
+    </a>
+    <a href="/frameworks" class="article-link">
         <article class="article">
-            <img src="" alt="">
-            <h2>Article Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="img-container">
+            <img src="/svelte_logo.png" alt="leervragen">
+        </div>
+            <h2>Hoe omarm je nieuwe tools en frameworks?</h2>
+            <p>"Voorbereiding op nieuwe tools en frameworks zoals sveltekit"</p>
+            <p class="datum">02-09-2024</p>
         </article>
+    </a>
+    <a href="/gedaan" class="article-link">
         <article class="article">
-            <img src="" alt="">
-            <h2>Article Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="img-container">
+            <img src="/cute-man-working-computer-with-coffee-cartoon-vector-icon-illustration-people-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-3868.avif" alt="leervragen">
+        </div>
+            <h2>Wat heb ik vandaag geleerd?</h2>
+            <p>"Ik heb veel gedaan vandaag, wat heb ik geleerd?"</p>
+            <p class="datum">03-09-2024</p>
         </article>
-        <article class="article">
-            <img src="" alt="">
-            <h2>Article Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </article>
-        <article class="article">
-            <img src="" alt="">
-            <h2>Article Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </article>
-        <article class="article">
-            <img src="" alt="">
-            <h2>Article Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </article>
-        <article class="article">
-            <img src="" alt="">
-            <h2>Article Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </article>
-        <article class="article">
-            <img src="" alt="">
-            <h2>Article Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </article>
-        <article class="article">
-            <img src="" alt="">
-            <h2>Article Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </article>
-        <article class="article">
-            <img src="" alt="">
-            <h2>Article Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </article>
+    </a>
     </main>
   </div>
   
   <style>
     .header {
-      grid-area: header;
-      color: black;
       padding: 20px;
       display: flex;
     justify-content: space-between; /* Space between the items */
@@ -150,24 +131,19 @@
 }
   
     .main-content {
-      padding: 20px;
-      gap: 10px;
-      justify-content: flex-start;
       outline: 2px solid black;
-      background-color: #fff;
       display: flex;
-            flex-wrap: wrap;
+    flex-wrap: wrap;
     }
 
     .article {
-            border: 1px solid #ddd;
+            border: 1px solid #000000;
             padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            height: 300px;
+            height: 350px;
             cursor: pointer;
-            width: 200px;
+            width: 269px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: border-color 0.3s, box-shadow 0.3s;
         }
 
         .article-link {
@@ -176,7 +152,12 @@
     display: block; /* Zorgt ervoor dat het hele artikel klikbaar is */
 }
 
-        .article img {
+.article:focus-within,
+.article:hover {
+background-color: white;
+color: black;
+}
+   .article img {
             width: 150px;
             height: 150px;
             object-fit: cover;
