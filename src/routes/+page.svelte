@@ -13,7 +13,7 @@
     <img src="/plant_01.png" alt="" width="300" height="200">
     <div class="tekst-info">
         <h2>Ruben Erhardt's Digital Garden</h2>
-        <p>Notities over het web, WELOVEWEBS en dingen die ik heb geleerd</p>
+        <p>Notities over het web, WELOVEWEBS en dingen die ik heb geleerd.</p>
     </div>
     <img src="/59a81a86259965.5d940fbcbdefa-removebg-preview.png" alt="" width="300" height="200" class="wifi">
 </section>
@@ -126,10 +126,6 @@
         flex-wrap: wrap;
     }
 
-    .wifi{
-        margin-left: 300px;
-    }
-
     .tekst-info h2{
         margin-bottom: -100px;
     }
@@ -139,13 +135,18 @@
     background-color: black;
     color: #fff; /* Text color */
     outline: 2px solid black;
+    height: 25px; /* The desired height */
     white-space: nowrap; /* Prevents line breaks */
+    display: flex; /* Flexbox for centering */
+    align-items: center; /* Centers text vertically */
 }
 
 .latest-text {
     display: inline-block;
     padding-left: 50%; /* Start the text off-screen */
-    animation: latest 20s linear infinite; /* Animation settings */
+    animation: latest 40s linear infinite; /* Animation settings */
+    font-size: 14px; /* Reduce the font size */
+    line-height: 25px; /* Match the container's height for vertical centering */
 }
 
 @keyframes latest {
