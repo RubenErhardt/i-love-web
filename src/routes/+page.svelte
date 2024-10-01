@@ -2,7 +2,7 @@
     <p>Ruben Erhardt's Digital Garden</p>
     <div class="links">
         <p>
-            <a href="#About">About</a>
+            <a href="#About" class="wobbling-link">About</a>
         </p>
         <p>
             <a href="https://github.com/rubenerhardt">Github</a>
@@ -212,6 +212,8 @@
 .skills {
     outline: 2px solid black;
     padding: 20px; /* Ruimte binnen de sectie */
+    background-color: rgba(0, 0, 0, 0.566);
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
 }
 
 ul {
@@ -257,6 +259,8 @@ li {
 .current-games {
     outline: 2px solid black;
     padding:20px;
+    background-color: rgba(0, 0, 0, 0.566);
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
 }
 
 .game-list {
@@ -313,6 +317,22 @@ li {
     background-color: #597A28; /* Verander de achtergrondkleur */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Voeg een schaduw toe */
     color: white; /* Verander de tekstkleur */
+}
+
+.wobbling-link {
+    display: inline-block; /* Makes the element inline but allows transform */
+    animation: wobble 1s infinite; /* Animation name, duration, and repeat */
+    font-size: 24px; /* Adjust size as needed */
+    color: #e74c3c; /* Change color if desired */
+}
+
+@keyframes wobble {
+    0% { transform: rotate(0deg); }
+    15% { transform: rotate(10deg); }
+    30% { transform: rotate(-10deg); }
+    45% { transform: rotate(5deg); }
+    60% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
 }
 
 
