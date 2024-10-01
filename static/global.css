@@ -1,7 +1,8 @@
 body{
   background-attachment: fixed;
-  background-color: #517916f1;
+  background-color: #4c7a03f1;
 background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
   font-family: "Orbitron", sans-serif;
   color: #ffffff;
+  overflow-x: hidden;
 }
