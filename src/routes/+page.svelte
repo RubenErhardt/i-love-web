@@ -89,6 +89,7 @@
 </section>
 
 <section class="skills">
+    <div class="skills-container"></div>
     <h2>💼 Skills & Expertise</h2>
     <ul>
         <li>HTML <div class="progress-bar" style="width: 80%;"></div></li>
@@ -97,6 +98,27 @@
         <li>SvelteKit <div class="progress-bar" style="width: 50%;"></div></li>
     </ul>
 </section>
+
+<section class="current-games">
+    <h2>🎮 Current games I am playing.</h2>
+    <ul class="game-list">
+        <li class="game-item">
+            <span>Black Ops 6</span>
+            <img src="/PS5-packshot.webp" alt="Black Ops 6" width="175" height="200">
+        </li>
+        <li class="game-item">
+            <span>FC 25</span>
+            <img src="/2006834252.png" alt="FC 25" width="150" height="200">
+        </li>
+        <li class="game-item current-favorite">
+            <span>Black Myth: Wukong</span>
+            <img src="/Black_Myth_Wukong_cover_art (1).jpg" alt="Black Myth: Wukong" width="150" height="200">
+        </li>
+        
+    </ul>
+</section>
+
+
 
 
 <section id="About">
@@ -216,6 +238,7 @@ li {
     background-color: #4A90E2; /* Kleur voor HTML */
 }
 
+
 .skills li:nth-child(2) .progress-bar {
     width: 75%; /* Voor CSS */
     background-color: #7ED321; /* Kleur voor CSS */
@@ -229,6 +252,27 @@ li {
 .skills li:nth-child(4) .progress-bar {
     width: 50%; /* Voor SvelteKit */
     background-color: #9B59B6; /* Kleur voor SvelteKit */
+}
+
+.current-games {
+    outline: 2px solid black;
+    padding:20px;
+}
+
+.game-list {
+    list-style-type: none; /* Remove bullets */
+    display: flex; /* Use flexbox to arrange items */
+}
+
+.game-item {
+    margin: 10px; /* Space between items */
+}
+
+.game-item img {
+    display: block; /* Ensure the image is a block element */
+    margin: 0 auto; /* Center the image */
+    margin-top: 15px;
+
 }
 
     .Overzicht{
