@@ -43,7 +43,7 @@
 <section class="WeLoveWebs">
     <h2>Dit zijn alle <span>WELOVEWEBS</span>, hierin kan je mijn notities vinden over de talk, wie er heeft gepraat en wat ik ervan vond.</h2>
 <div class="grid-container">
-    <div class="grid-item"><a href="/">WORK IN PROGRESS</a></div>
+    <div class="grid-item"><a href="/welovewebs">Vasilis van Gemert</a></div>
     <div class="grid-item"><a href="/sprint14">WORK IN PROGRESS</a></div>
     <div class="grid-item"><a href="/sprint15">WORK IN PROGRESS</a></div>
     <div class="grid-item"><a href="/sprint16">WORK IN PROGRESS</a></div>
@@ -117,9 +117,6 @@
         
     </ul>
 </section>
-
-
-
 
 <section id="About">
     <div class="container-about">
@@ -275,7 +272,6 @@ li {
     display: block; /* Ensure the image is a block element */
     margin: 0 auto; /* Center the image */
     margin-top: 15px;
-
 }
 
     .Overzicht{
@@ -349,7 +345,7 @@ li {
 
         .walking-guy-header {
             position: absolute;
-            top: 50%;
+            top: 55%;
             right: -60px;
             transform: translateY(-50%);
             width: 50px;
