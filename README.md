@@ -4,7 +4,7 @@ Welcome to my repository of I-Love-Web. Here you can find my Digital Garden.
 ## Features ❇️
 
 ## Live Link Website 🔗
-I have used [Vercel](https://vercel.com/) to deploy my website. Here is the live link: 
+I have used [Vercel](https://vercel.com/) to deploy my website. Here is the live link: https://digitalgardening.vercel.app/
 
 ## Preview Website 🌐
 
