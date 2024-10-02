@@ -1,38 +1,35 @@
-# create-svelte
+# I-Love-Web 🪪
+Welcome to my repository of I-Love-Web. Here you can find my Digital Garden. 
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Features ❇️
 
-## Creating a project
+## Live Link Website 🔗
+I have used [Vercel](https://vercel.com/) to deploy my website. Here is the live link: 
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Preview Website 🌐
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## How to use the page ⌨️ 🖱️
 
-## Developing
+## Techniques Used 📚
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **SvelteKit**: A modern framework for building fast, optimized web applications with Svelte.
+- **HTML**: For structuring the web page.
+- **CSS**: For styling and layout design.
+- **JavaScript**: For interactive functionality and dynamic content management.
 
-```bash
-npm run dev
+## Tools ⚒️
+- **Visual Studio Code**: Code editor used for development.
+- **Figma**: Design tool used for creating and prototyping the visual design.
+- **Vercel**: Used for deploying and hosting the application.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## How to Clone and Use This Project 👯
+1. Clone the Repository
+2. Open the repo with a code editor
+3. Open the terminal
+4. Type ```npm i``` or ```npm install```
+5. Type ```npm run dev```
+6. "Optional":
+   - Fork the repository.
+   - Create a new branch and make your changes.
+   - Submit a pull request with a description of your changes.
