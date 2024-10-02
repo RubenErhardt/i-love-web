@@ -280,11 +280,11 @@ li {
     .Overzicht{
         margin-top: 0px;
         outline: 2px solid black;
-        padding: 20px;
     }
 
    .Overzicht h2{
         font-size: large;
+        padding: 20px;
    }
 
    #About{
@@ -370,9 +370,10 @@ color: #00ff4c;
 
    .grid-item:hover {
     transform: translateY(-5px); 
-    outline: #00ff4c 2px solid;
+    outline: #000000 2px solid;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
     color: white; 
+    background-color:#00FF4C ;
 }
 
 .wobbling-link {
