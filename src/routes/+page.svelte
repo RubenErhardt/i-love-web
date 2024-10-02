@@ -211,14 +211,14 @@
 
 .skills {
     outline: 2px solid black;
-    padding: 20px; /* Ruimte binnen de sectie */
+    padding: 20px; 
     background-color: rgba(0, 0, 0, 0.566);
     background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
 }
 
 ul {
-    list-style: none; /* Geen opsommingstekens */
-    padding: 0; /* Geen padding */
+    list-style: none; 
+    padding: 0; 
 }
 
 li {
@@ -227,33 +227,32 @@ li {
 }
 
 .progress-bar {
-    background-color: #4A90E2; /* Kleur van de voortgangsbalk */
-    height: 10px; /* Hoogte van de balk */
-    border-radius: 5px; /* Ronde hoeken voor een mooiere uitstraling */
-    transition: width 0.4s ease; /* Animatie bij het veranderen van de breedte */
-    width: 0; /* Start met een breedte van 0 (voor animatie-effect) */
+    background-color: #4A90E2; 
+    height: 10px;
+    border-radius: 5px; 
+    transition: width 0.4s ease; 
+    width: 0;
 }
 
-/* Vul de voortgangsbalken met de juiste breedtes */
 .skills li .progress-bar {
-    width: 80%; /* Voor HTML */
-    background-color: #4A90E2; /* Kleur voor HTML */
+    width: 80%; 
+    background-color: #4A90E2; 
 }
 
 
 .skills li:nth-child(2) .progress-bar {
     width: 75%; /* Voor CSS */
-    background-color: #7ED321; /* Kleur voor CSS */
+    background-color: #7ED321; 
 }
 
 .skills li:nth-child(3) .progress-bar {
-    width: 60%; /* Voor JavaScript */
-    background-color: #F39C12; /* Kleur voor JavaScript */
+    width: 60%; 
+    background-color: #F39C12;
 }
 
 .skills li:nth-child(4) .progress-bar {
-    width: 50%; /* Voor SvelteKit */
-    background-color: #9B59B6; /* Kleur voor SvelteKit */
+    width: 50%; 
+    background-color: #9B59B6; 
 }
 
 .current-games {
@@ -373,7 +372,7 @@ li {
 
         .header p {
             margin: 0;
-            font-size: 0.8em;
+            font-size: 1em;
         }
 
         .header a {
@@ -436,7 +435,7 @@ li {
             display: inline-block;
             padding-left: 50%;
             animation: latest 40s linear infinite;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 25px;
         }
 
