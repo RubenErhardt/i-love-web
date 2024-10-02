@@ -460,6 +460,25 @@ color: #00ff4c;
             position: relative;
         }
 
+        /* .more-info h2{
+            color: #000000;
+    font-size: 18px;
+    overflow: hidden;
+    border-right: .15em solid #00ff4c;
+    animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+    animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+        }
+
+        @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #00ff4c;}
+} */
+
         .plantje-gif {
             position: absolute;
             bottom: -10px;
@@ -524,7 +543,7 @@ color: #00ff4c;
         .grid-item {
             padding: 20px;
             text-align: center;
-            background-color: #f2f2f2;
+            background-color: #f2f2f2d4;
             border: 1px solid #000;
             margin-bottom: -10px;
             font-size: 18px;
