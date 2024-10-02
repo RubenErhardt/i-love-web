@@ -313,17 +313,16 @@ li {
    }
 
    .grid-item:hover {
-    transform: translateY(-5px); /* Beweeg het item omhoog */
-    background-color: #597A28; /* Verander de achtergrondkleur */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Voeg een schaduw toe */
-    color: white; /* Verander de tekstkleur */
+    transform: translateY(-5px); 
+    background-color: #597A28; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+    color: white; 
 }
 
 .wobbling-link {
-    display: inline-block; /* Makes the element inline but allows transform */
+    display: inline-block; 
     animation: wobble 1s infinite; /* Animation name, duration, and repeat */
-    font-size: 24px; /* Adjust size as needed */
-    color: #e74c3c; /* Change color if desired */
+    color: #e74c3c; 
 }
 
 @keyframes wobble {
