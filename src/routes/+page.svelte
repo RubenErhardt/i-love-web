@@ -27,7 +27,9 @@
 <section class="Overzicht">
 
 <section class="Sprints">
-    <h2>Dit zijn alle <span>SPRINTS</span>, hierin kan je mijn notities vinden. Deze zijn niet netjes, maar je kan wel zien hoe mijn dagen in de sprint eruit zagen en wat ik heb geleerd. Ook kan je zien in welke sprint we nu zitten.</h2>
+    <h2>Dit zijn alle <span>SPRINTS</span>, hierin kan je mijn notities vinden. <br>
+        Deze zijn niet netjes, maar je kan wel zien hoe mijn dagen in de 
+        sprint eruit zagen <br>en wat ik heb geleerd. Ook kan je zien in welke sprint we nu zitten.</h2>
 <div class="grid-container">
     <div class="grid-item"><a href="/sprint13">Sprint 13</a></div>
     <div class="grid-item grid-item-active"><a href="/sprint14">Sprint 14</a></div>
@@ -41,7 +43,8 @@
 </section>
 
 <section class="WeLoveWebs">
-    <h2>Dit zijn alle <span>WELOVEWEBS</span>, hierin kan je mijn notities vinden over de talk, wie er heeft gepraat en wat ik ervan vond.</h2>
+    <h2>Dit zijn alle <span>WELOVEWEBS</span>, hierin kan je mijn notities vinden <br>
+        over de talk, wie er heeft gepraat en wat ik ervan vond.</h2>
 <div class="grid-container">
     <div class="grid-item"><a href="/welovewebs">Vasilis van Gemert</a></div>
     <div class="grid-item"><a href="/sprint14">WORK IN PROGRESS</a></div>
@@ -90,7 +93,7 @@
 
 <section class="skills">
     <div class="skills-container"></div>
-    <h2>💼 Skills & Expertise</h2>
+    <h2>Skills & Expertise 💼 </h2>
     <ul>
         <li>HTML <div class="progress-bar" style="width: 80%;"></div></li>
         <li>CSS <div class="progress-bar" style="width: 75%;"></div></li>
@@ -100,7 +103,7 @@
 </section>
 
 <section class="current-games">
-    <h2>🎮 Current games I am playing.</h2>
+    <h2>Current games I am playing 🎮 </h2>
     <ul class="game-list">
         <li class="game-item">
             <span>Black Ops 6</span>
@@ -281,7 +284,6 @@ li {
     }
 
    .Overzicht h2{
-    text-align: center;
         font-size: large;
    }
 
@@ -368,7 +370,7 @@ color: #00ff4c;
 
    .grid-item:hover {
     transform: translateY(-5px); 
-    background-color: #597A28; 
+    outline: #00ff4c 2px solid;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
     color: white; 
 }
@@ -473,6 +475,11 @@ color: #00ff4c;
 
         .tekst-info h2 {
             margin-bottom: -100px;
+            font-size: 2em;
+        }
+
+        .tekst-info p {
+            font-size: 1em;
         }
 
         .latest {
@@ -492,6 +499,10 @@ color: #00ff4c;
             animation: latest 40s linear infinite;
             font-size: 16px;
             line-height: 25px;
+        }
+
+        .current-games span{
+            color: white;
         }
 
         @keyframes latest {
@@ -524,7 +535,7 @@ color: #00ff4c;
         }
 
         .grid-item-active {
-            background-color: #597A28;
+            background-color: #00ff4c;
             border: 2px solid #000000;
         }
 
