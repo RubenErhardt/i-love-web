@@ -21,7 +21,7 @@
 </section>
 
 <section class="latest">
-    <p class="latest-text">Latest: Mentor Leerjaar 1 &nbsp;&nbsp; | Wordpress API  &nbsp;&nbsp; | Projectboard workshop &nbsp;&nbsp; | Updated: 01-10-2024</p>
+    <p class="latest-text">Latest: Mentor Leerjaar 1&nbsp;&nbsp;| Wordpress API&nbsp;&nbsp;| Projectboard workshop&nbsp;&nbsp;|Updated: 01-10-2024</p>
 </section>
 
 <section class="Overzicht">
@@ -58,7 +58,8 @@
 </section>
 
 <section class="Leervragen">
-    <h2>Dit zijn alle <span>LEERVRAGEN</span>, hierin kan je mijn leervragen vinden over het web, misschien kan je die wel beantwoorden?</h2>
+    <h2>Dit zijn alle <span>LEERVRAGEN</span>, hierin kan je mijn leervragen vinden <br>
+        over het web, misschien kan je die wel beantwoorden?</h2>
 <div class="grid-container">
     <div class="grid-item"><a href="/">WORK IN PROGRESS</a></div>
     <div class="grid-item"><a href="/sprint14">WORK IN PROGRESS</a></div>
@@ -72,7 +73,8 @@
 </section>
 
 <section class="Vindingen">
-    <h2>Dit zijn alle coole <span> VINDINGEN / NUTTELOZE DINGEN</span>, die ik heb gevonden op het web. Nutteloos is nuttig?</h2>
+    <h2>Dit zijn alle coole <span> VINDINGEN / NUTTELOZE DINGEN</span>, die ik heb <br>
+        gevonden op het web. Nutteloos is nuttig?</h2>
 <div class="grid-container">
     <div class="grid-item"><a href="/">WORK IN PROGRESS</a></div>
     <div class="grid-item"><a href="/sprint14">WORK IN PROGRESS</a></div>
@@ -212,8 +214,6 @@
 .skills {
     outline: 2px solid black;
     padding: 20px; 
-    background-color: rgba(0, 0, 0, 0.566);
-    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
 }
 
 ul {
@@ -258,8 +258,6 @@ li {
 .current-games {
     outline: 2px solid black;
     padding:20px;
-    background-color: rgba(0, 0, 0, 0.566);
-    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
 }
 
 .game-list {
@@ -278,13 +276,14 @@ li {
 }
 
     .Overzicht{
-        margin-top: 0px;
+        margin-top: -12px;
         outline: 2px solid black;
     }
 
    .Overzicht h2{
         font-size: large;
         padding: 20px;
+        margin-bottom: -10px;
    }
 
    #About{
@@ -527,6 +526,7 @@ color: #00ff4c;
             text-align: center;
             background-color: #f2f2f2;
             border: 1px solid #000;
+            margin-bottom: -10px;
             font-size: 18px;
         }
 
