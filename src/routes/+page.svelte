@@ -1,5 +1,5 @@
 <header class="header">
-    <p>Ruben Erhardt's Digital Garden</p>
+    <p><span>Ruben Erhardt's</span> Digital Garden</p>
     <div class="links">
         <p>
             <a href="#About" class="wobbling-link">About</a>
@@ -12,10 +12,10 @@
 </header>
 
 <section class="more-info">
-    <img src="/plant_01.png" alt="" width="300" height="200">
+    <img src="/plant_01.png" alt="" width="300" height="200" class="plantje-img">
     <div class="tekst-info">
-        <h2>Ruben Erhardt's Digital Garden</h2>
-        <p>Notities over het web, WELOVEWEBS en dingen die ik heb geleerd.</p>
+        <h2>Ruben Erhardt's <span>Digital Garden</span></h2>
+        <p>Notities over het <span>web</span>, <span>WELOVEWEBS</span> en dingen die ik heb <span>geleerd.</span></p>
     </div>
     <img src="/output-onlinegiftools.gif" alt="" width="100" height="100" class="plantje-gif">
 </section>
@@ -293,13 +293,72 @@ li {
     padding: 20px
    }
 
+   .links a:hover{
+color: #00ff4c;
+   }
+
+
+   .plantje-img{
+    -webkit-animation: breathing 5s ease-out infinite normal;
+    animation: breathing 5s ease-out infinite
+   }
+
+   @-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+
    #About a{
     color: red;
     }
    
 
-   .Overzicht span{
-    color: #ff0000;
+    span{
+    color: #00ff4c;
    }
 
    .grid-item{
@@ -317,7 +376,7 @@ li {
 .wobbling-link {
     display: inline-block; 
     animation: wobble 1s infinite; /* Animation name, duration, and repeat */
-    color: #e74c3c; 
+
 }
 
 @keyframes wobble {
