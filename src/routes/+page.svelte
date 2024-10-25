@@ -47,8 +47,8 @@
         over de talk, wie er heeft gepraat en wat ik ervan vond.</h2>
 <div class="grid-container">
     <div class="grid-item"><a href="/welovewebs">Vasilis van Gemert</a></div>
-    <div class="grid-item"><a href="/sprint14">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint15">WORK IN PROGRESS</a></div>
+    <div class="grid-item"><a href="/welovewebs">Nicolas Garnier</a></div>
+    <div class="grid-item"><a href="/welovewebs">Don Pieters</a></div>
     <div class="grid-item"><a href="/sprint16">WORK IN PROGRESS</a></div>
     <div class="grid-item"><a href="/sprint17">WORK IN PROGRESS</a></div>
     <div class="grid-item"><a href="/sprint18">WORK IN PROGRESS</a></div>

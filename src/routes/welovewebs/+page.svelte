@@ -16,6 +16,38 @@
             </ul>
             <p class="datum">02-10-2024</p>
         </article>
+
+        <article class="article">
+            <div class="img-container">
+        </div>
+            <h2>Nicolas Garnier</h2>
+            <ul>
+                <li>Start 2012 dev, freelance 2018, creative developer, hij doet van alles wat</li>
+                    <li>core: code/design, playfullness voor user blijft beter hangen</li>
+                        <li>animation voor websites, action on website, client is heel belangrijk, zorg dat de user de site wilt gebruiken</li>
+                            <li>maak een website op basis wat het product is</li>    
+<li>open minded, lots of time, feedback, nicodotcomputer</li>
+            
+            </ul>
+            <p class="datum"></p>
+        </article>
+
+        <article class="article">
+            <div class="img-container">
+        </div>
+            <h2>Don Pieters</h2>
+            <ul>
+                <li>Start 2012 dev, freelance 2018, creative developer, hij doet van alles wat</li>
+                    <li>core: code/design, playfullness voor user blijft beter hangen</li>
+                        <li>animation voor websites, action on website, client is heel belangrijk, zorg dat de user de site wilt gebruiken</li>
+                            <li>maak een website op basis wat het product is</li>    
+<li>open minded, lots of time, feedback, nicodotcomputer</li>
+            
+            </ul>
+            <p class="datum"></p>
+        </article>
+
+
     </main>
 </div>
 
