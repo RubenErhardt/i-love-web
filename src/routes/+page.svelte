@@ -26,22 +26,6 @@
 
 <section class="Overzicht">
 
-<section class="Sprints">
-    <h2>Dit zijn alle <span>SPRINTS</span>, hierin kan je mijn notities vinden. <br>
-        Deze zijn niet netjes, maar je kan wel zien hoe mijn dagen in de 
-        sprint eruit zagen <br>en wat ik heb geleerd. Ook kan je zien in welke sprint we nu zitten.</h2>
-<div class="grid-container">
-    <div class="grid-item"><a href="/sprint13">Sprint 13</a></div>
-    <div class="grid-item grid-item-active"><a href="/sprint14">Sprint 14</a></div>
-    <div class="grid-item"><a href="/sprint15">Sprint 15</a></div>
-    <div class="grid-item"><a href="/sprint16">Sprint 16</a></div>
-    <div class="grid-item"><a href="/sprint17">Sprint 17</a></div>
-    <div class="grid-item"><a href="/sprint18">Sprint 18</a></div>
-    <div class="grid-item"><a href="/sprint19">Sprint 19</a></div>
-    <div class="grid-item"><a href="/sprint20">Sprint 20</a></div>
-</div>
-</section>
-
 <section class="WeLoveWebs">
     <h2>Dit zijn alle <span>WELOVEWEBS</span>, hierin kan je mijn notities vinden <br>
         over de talk, wie er heeft gepraat en wat ik ervan vond.</h2>
@@ -49,26 +33,6 @@
     <div class="grid-item"><a href="/welovewebs">Vasilis van Gemert</a></div>
     <div class="grid-item"><a href="/welovewebs">Nicolas Garnier</a></div>
     <div class="grid-item"><a href="/welovewebs">Don Pieters</a></div>
-    <div class="grid-item"><a href="/sprint16">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint17">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint18">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint19">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint20">WORK IN PROGRESS</a></div>
-</div>
-</section>
-
-<section class="Leervragen">
-    <h2>Dit zijn alle <span>LEERVRAGEN</span>, hierin kan je mijn leervragen vinden <br>
-        over het web, misschien kan je die wel beantwoorden?</h2>
-<div class="grid-container">
-    <div class="grid-item"><a href="/">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint14">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint15">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint16">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint17">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint18">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint19">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint20">WORK IN PROGRESS</a></div>
 </div>
 </section>
 
@@ -76,8 +40,8 @@
     <h2>Dit zijn alle coole <span> VINDINGEN / NUTTELOZE DINGEN</span>, die ik heb <br>
         gevonden op het web. Nutteloos is nuttig?</h2>
 <div class="grid-container">
-    <div class="grid-item"><a href="/">WORK IN PROGRESS</a></div>
-    <div class="grid-item"><a href="/sprint14">WORK IN PROGRESS</a></div>
+    <div class="grid-item"><a href="/ScrollCSS">Scroll driven animation blur / scroll watcher</a></div>
+    <div class="grid-item"><a href="/grid">grid</a></div>
     <div class="grid-item"><a href="/sprint15">WORK IN PROGRESS</a></div>
     <div class="grid-item"><a href="/sprint16">WORK IN PROGRESS</a></div>
     <div class="grid-item"><a href="/sprint17">WORK IN PROGRESS</a></div>
@@ -552,11 +516,6 @@ color: #00ff4c;
         .grid-item a {
             text-decoration: none;
             color: rgb(0, 0, 0);
-        }
-
-        .grid-item-active {
-            background-color: #00ff4c;
-            border: 2px solid #000000;
         }
 
         .footer {
