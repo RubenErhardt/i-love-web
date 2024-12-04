@@ -14,6 +14,7 @@
             <li><strong>Kolommen:</strong> De eigenschap `grid-template-columns` definieert hoeveel kolommen er zijn.</li>
             <li><strong>Rijen:</strong> Gebruik `grid-template-rows` om rijen in te stellen.</li>
             <li><strong>Positionering:</strong> Gebruik `grid-column` en `grid-row` om items te plaatsen.</li>
+            <li>https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout</li>
         </ul>
     </div>
 </div>

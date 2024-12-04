@@ -16,6 +16,15 @@
     <div class="tekst-info">
         <h2>Ruben Erhardt's <span>Digital Garden</span></h2>
         <p>Notities over het <span>web</span>, <span>WELOVEWEBS</span> en dingen die ik heb <span>geleerd.</span></p>
+        <audio id="background-music" loop>
+            <source src="/Indila - Dernière Danse (Clip Officiel) [ ezmp3.cc ].mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        
+        <div class="audio-controls">
+            <button class="play-btn" onclick="document.getElementById('background-music').play()">Play Music</button>
+            <button class="pause-btn" onclick="document.getElementById('background-music').pause()">Pause Music</button>
+        </div>
     </div>
     <img src="/output-onlinegiftools.gif" alt="" width="100" height="100" class="plantje-gif">
 </section>
@@ -23,6 +32,7 @@
 <section class="latest">
     <p class="latest-text">Latest: Mentor Leerjaar 1&nbsp;&nbsp;| Wordpress API&nbsp;&nbsp;| Projectboard workshop&nbsp;&nbsp;|Updated: 01-10-2024</p>
 </section>
+
 
 <section class="Overzicht">
 
@@ -41,12 +51,21 @@
         gevonden op het web. Nutteloos is nuttig?</h2>
 <div class="grid-container">
     <div class="grid-item"><a href="/ScrollCSS">Scroll driven animation blur / scroll watcher</a></div>
-    <div class="grid-item"><a href="/grid">grid</a></div>
-    <div class="grid-item"><a href="/sprint15">WORK IN PROGRESS</a></div>
+    <div class="grid-item"><a href="/grid">Hoe werkt grid nou</a></div>
+    <div class="grid-item"><a href="/JavaAanUit">Donker / Licht</a></div>
     <div class="grid-item"><a href="/sprint16">WORK IN PROGRESS</a></div>
     <div class="grid-item"><a href="/sprint17">WORK IN PROGRESS</a></div>
     <div class="grid-item"><a href="/sprint18">WORK IN PROGRESS</a></div>
     <div class="grid-item"><a href="/sprint19">WORK IN PROGRESS</a></div>
+    <div class="grid-item"><a href="/sprint20">WORK IN PROGRESS</a></div>
+</div>
+</section>
+
+<section class="Artikelen">
+    <h2>Dit zijn alle coole <span> Artikelen</span>, die ik heb <br>
+        gevonden op het web.</h2>
+<div class="grid-container">
+    <div class="grid-item"><a href="https://alistapart.com/article/dao/">24 Jaar later</a></div>
     <div class="grid-item"><a href="/sprint20">WORK IN PROGRESS</a></div>
 </div>
 </section>
@@ -249,6 +268,59 @@ li {
         padding: 20px;
         margin-bottom: -10px;
    }
+
+   .audio-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px; /* Space between buttons */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Styling for the Play button */
+.play-btn {
+    background-color: #28a745; /* Green color */
+    color: white;
+}
+
+.play-btn:hover {
+    background-color: #218838; /* Darker green */
+}
+
+/* Styling for the Pause button */
+.pause-btn {
+    background-color: #dc3545; /* Red color */
+    color: white;
+}
+
+.pause-btn:hover {
+    background-color: #c82333; /* Darker red */
+}
+
+/* Optional: Add a small music icon inside the buttons */
+.play-btn::before {
+    content: '\1F3B5'; /* Music note emoji */
+    margin-right: 10px;
+}
+
+.pause-btn::before {
+    content: '\23F8'; /* Pause symbol */
+    margin-right: 10px;
+}
 
    #About{
     background-color: rgba(0, 0, 0, 0.566);
@@ -610,4 +682,114 @@ color: #00ff4c;
     margin-top: 20px;
     font-size: 0.9em;
 }
+
+.more-info {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    outline: 2px solid black;
+    align-items: flex-start; /* Align children to the top */
+}
+
+.tekst-info {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    justify-content: center;
+    width: 60%;  /* Control the width */
+    padding-right: 20px;  /* Add space to the right */
+}
+
+.tekst-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;  /* Space below the title */
+}
+
+.tekst-info p {
+    font-size: 1em;
+    margin-bottom: 20px;  /* Space after paragraph */
+}
+
+.audio-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.play-btn {
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+.play-btn:hover {
+    background-color: #218838;
+}
+
+.pause-btn {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+.pause-btn:hover {
+    background-color: #c82333;
+}
+
+.plantje-img {
+    -webkit-animation: breathing 5s ease-out infinite normal;
+    animation: breathing 5s ease-out infinite;
+    margin-left: 20px;  /* Prevent overlap */
+    max-width: 100%;  /* Prevent overflow */
+    height: auto;
+}
+
+@keyframes breathing {
+    0% { transform: scale(0.9); }
+    25% { transform: scale(1); }
+    60% { transform: scale(0.9); }
+    100% { transform: scale(0.9); }
+}
+
+@media screen and (max-width: 740px) {
+    .more-info {
+        flex-direction: column;  /* Stack elements vertically */
+        align-items: center;  /* Center align */
+    }
+
+    .tekst-info {
+        width: 100%;  /* Make the text container full-width */
+        padding-right: 0;  /* Remove extra padding on the right */
+        text-align: center;  /* Center text */
+    }
+
+    .plantje-img {
+        margin-left: 0;  /* Remove left margin */
+        max-width: 80%;  /* Adjust image width */
+        height: auto;
+    }
+
+    .audio-controls {
+        flex-direction: column;  /* Stack buttons vertically */
+        gap: 10px;  /* Add space between buttons */
+    }
+
+    button {
+        width: 100%;  /* Make buttons full width on small screens */
+    }
+}
+
     </style>
+
